@@ -45,3 +45,4 @@ puts slow_dance("right-down",tiles_array)
 
 puts constant_dance("up",tiles_hash)
 puts constant_dance("right-down",tiles_hash)
+yay done!
