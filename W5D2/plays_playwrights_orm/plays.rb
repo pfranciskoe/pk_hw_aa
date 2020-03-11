@@ -50,11 +50,11 @@ class Play
   end
 
   def find_by_title(title)
-  
+    @title
   end
 
   def find_by_playwright(name)
-
+    @playwright_id
   end 
 
 end
