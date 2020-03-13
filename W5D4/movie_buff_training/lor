@@ -1,0 +1,57 @@
+[31mF[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m
+
+Failures:
+
+  1) find_angelina retrieves the correct information
+     [31mFailure/Error:[0m
+     [31m  expect(subject).to contain_exactly([0m
+     [31m  	['id', 487],[0m
+     [31m  	['name', 'Angelina Jolie'][0m
+     [31m  )[0m
+     [31m[0m
+     [31m  expected a collection that can be converted to an array with `#to_ary` or `#to_a`, but got nil[0m
+     [36m# ./spec/movie_novice_queries_spec.rb:11:in `block (2 levels) in <top (required)>'[0m
+
+  2) top_titles retrieves the correct information
+     [31mFailure/Error: expect(subject).to contain_exactly(*expected_response)[0m
+     [31m  expected a collection that can be converted to an array with `#to_ary` or `#to_a`, but got nil[0m
+     [36m# ./spec/movie_novice_queries_spec.rb:29:in `block (2 levels) in <top (required)>'[0m
+
+  3) star_wars retrieves the correct information
+     [31mFailure/Error: expect(subject).to contain_exactly(*expected_response)[0m
+     [31m  expected a collection that can be converted to an array with `#to_ary` or `#to_a`, but got nil[0m
+     [36m# ./spec/movie_novice_queries_spec.rb:44:in `block (2 levels) in <top (required)>'[0m
+
+  4) below_average_years retrieves the correct information
+     [31mFailure/Error: expect(subject).to contain_exactly(*expected_response)[0m
+     [31m  expected a collection that can be converted to an array with `#to_ary` or `#to_a`, but got nil[0m
+     [36m# ./spec/movie_novice_queries_spec.rb:80:in `block (2 levels) in <top (required)>'[0m
+
+  5) alphabetized_actors retrieves the correct information
+     [31mFailure/Error: expect(subject).to contain_exactly(*expected_response)[0m
+     [31m  expected a collection that can be converted to an array with `#to_ary` or `#to_a`, but got nil[0m
+     [36m# ./spec/movie_novice_queries_spec.rb:101:in `block (2 levels) in <top (required)>'[0m
+
+  6) pulp_fiction_actors retrieves the correct information
+     [31mFailure/Error: expect(subject).to contain_exactly(*expected_response)[0m
+     [31m  expected a collection that can be converted to an array with `#to_ary` or `#to_a`, but got nil[0m
+     [36m# ./spec/movie_novice_queries_spec.rb:126:in `block (2 levels) in <top (required)>'[0m
+
+  7) uma_movies retrieves the correct information
+     [31mFailure/Error: expect(subject).to contain_exactly(*expected_response)[0m
+     [31m  expected a collection that can be converted to an array with `#to_ary` or `#to_a`, but got nil[0m
+     [36m# ./spec/movie_novice_queries_spec.rb:147:in `block (2 levels) in <top (required)>'[0m
+
+Finished in 0.0618 seconds (files took 5.14 seconds to load)
+[31m7 examples, 7 failures[0m
+
+Failed examples:
+
+[31mrspec ./spec/movie_novice_queries_spec.rb:10[0m [36m# find_angelina retrieves the correct information[0m
+[31mrspec ./spec/movie_novice_queries_spec.rb:21[0m [36m# top_titles retrieves the correct information[0m
+[31mrspec ./spec/movie_novice_queries_spec.rb:36[0m [36m# star_wars retrieves the correct information[0m
+[31mrspec ./spec/movie_novice_queries_spec.rb:51[0m [36m# below_average_years retrieves the correct information[0m
+[31mrspec ./spec/movie_novice_queries_spec.rb:87[0m [36m# alphabetized_actors retrieves the correct information[0m
+[31mrspec ./spec/movie_novice_queries_spec.rb:108[0m [36m# pulp_fiction_actors retrieves the correct information[0m
+[31mrspec ./spec/movie_novice_queries_spec.rb:133[0m [36m# uma_movies retrieves the correct information[0m
+
