@@ -110,7 +110,8 @@ class MetaCorgiSnacks
   end
 
   def method_missing(name, *args)
-    # Your code goes here...
+    method_name = method_name.to_s
+    define_method(method_name)
   end
 
 
